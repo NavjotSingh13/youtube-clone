@@ -16,13 +16,13 @@ const VideoContainer = () => {
   }, []);
 
   return (
-    <div className="p-12">
+    <div className="">
       <h1>YouTube Videos</h1>
-      <ul className="flex">
+      <ul className="flex flex-wrap">
         {videos.map(video => (
           <li className="red" key={video.id.videoId}>
             <img src={video.snippet.thumbnails.default.url} alt={video.snippet.title} />
-            <h3 className="text-orange-200">{video.snippet.title}</h3>
+            <h3 className="">{video.snippet.title}</h3>
           </li>
         ))}
       </ul>

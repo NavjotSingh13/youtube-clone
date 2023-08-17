@@ -2,7 +2,7 @@ import React from 'react'
 
 const Sidebar = () => {
   return (
-    <div className="col-span-2">
+    <div className="">
       <div className="py-5">
         <h1>Heading1</h1>
         <li>Sub1</li>

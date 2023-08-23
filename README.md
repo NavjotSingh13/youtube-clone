@@ -8,3 +8,5 @@ Tailwind css
 Redux
 Context API
 Routing
+Prop Drilling
+
